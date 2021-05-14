@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+        var aa ={
+    "code": 0,
+    "message": "길찾기를 성공하였습니다.",
+    "currentDateTime": "2019-06-06T19:52:59",
+    "route": {
+        "trafast": [
+            {
+                "summary": {
+                    "start": {
+                        "location": [
+                            129.0073123,
+                            35.1456868
+                        ]
+                    },
+                    "goal": {
+                        "location": [
+                            129.010561,
+                            35.1439369
+                        ],
+                        "dir": 1
+                    },
+                    "distance": 596,
+                    "duration": 110768,
+                    "bbox": [
+                        [
+                            129.0072883,
+                            35.1444434
+                        ],
+                        [
+                            129.0111552,
+                            35.1460765
+                        ]
+                    ],
+                    "tollFare": 0,
+                    "taxiFare": 3300,
+                    "fuelPrice": 65
+                },
+                "path": [
+                    [
+                        129.0072883,
+                        35.1458142
+                    ],
+                    [
+                        129.0075843,
+                        35.145852
+                    ],
+                    [
+                        129.0076142,
+                        35.145867
+                    ],
+                    [
+                        129.0076311,
+                        35.1458884
+                    ],
+                    [
+                        129.0076385,
+                        35.1459361
+                    ],
+                    [
+                        129.0078003,
+                        35.1460765
+                    ],
+                    [
+                        129.0079769,
+                        35.1458327
+                    ],
+                    [
+                        129.0080985,
+                        35.1456978
+                    ],
+                    [
+                        129.0081276,
+                        35.1456722
+                    ],
+                    [
+                        129.0081713,
+                        35.1456599
+                    ],
+                    [
+                        129.0082407,
+                        35.1456698
+                    ],
+                    [
+                        129.008682,
+                        35.1458528
+                    ],
+                    [
+                        129.0088182,
+                        35.1459178
+                    ],
+                    [
+                        129.0088793,
+                        35.1458368
+                    ],
+                    [
+                        129.0089044,
+                        35.145768
+                    ],
+                    [
+                        129.0090417,
+                        35.1451811
+                    ],
+                    [
+                        129.0090916,
+                        35.1450894
+                    ],
+                    [
+                        129.0091417,
+                        35.1450645
+                    ],
+                    [
+                        129.0092425,
+                        35.145056
+                    ],
+                    [
+                        129.0103346,
+                        35.1453471
+                    ],
+                    [
+                        129.0103171,
+                        35.1449957
+                    ],
+                    [
+                        129.0103364,
+                        35.1449089
+                    ],
+                    [
+                        129.0103735,
+                        35.1448399
+                    ],
+                    [
+                        129.0104339,
+                        35.1447797
+                    ],
+                    [
+                        129.0105109,
+                        35.1447327
+                    ],
+                    [
+                        129.010598,
+                        35.144692
+                    ],
+                    [
+                        129.0109353,
+                        35.1445904
+                    ],
+                    [
+                        129.0110257,
+                        35.1445541
+                    ],
+                    [
+                        129.0111552,
+                        35.1444903
+                    ],
+                    [
+                        129.0110343,
+                        35.1444846
+                    ],
+                    [
+                        129.0105034,
+                        35.1444434
+                    ]
+                ],
+                "section": [
+                    {
+                        "pointIndex": 5,
+                        "pointCount": 8,
+                        "distance": 123,
+                        "name": "주례로",
+                        "congestion": 0,
+                        "speed": 19
+                    }
+                ],
+                "guide": [
+                    {
+                        "pointIndex": 5,
+                        "type": 3,
+                        "instructions": "'주례로' 방면으로 우회전",
+                        "distance": 59,
+                        "duration": 19308
+                    },
+                    {
+                        "pointIndex": 12,
+                        "type": 3,
+                        "instructions": "우회전",
+                        "distance": 123,
+                        "duration": 22760
+                    },
+                    {
+                        "pointIndex": 19,
+                        "type": 3,
+                        "instructions": "우회전",
+                        "distance": 215,
+                        "duration": 43000
+                    },
+                    {
+                        "pointIndex": 28,
+                        "type": 16,
+                        "instructions": "오른쪽 4시 방향",
+                        "distance": 139,
+                        "duration": 20016
+                    },
+                    {
+                        "pointIndex": 30,
+                        "type": 88,
+                        "instructions": "목적지",
+                        "distance": 60,
+                        "duration": 5684
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+console.log(aa.route.trafast[0].summary.start.location)
+console.log(aa.route.trafast[0].summary.goal.location)
+console.log(aa.route.trafast[0].path)
+
+        </script>
+</body>
+</html>
